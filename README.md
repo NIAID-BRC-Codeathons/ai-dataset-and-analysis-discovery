@@ -21,7 +21,16 @@ This codeathon builds on several related efforts:
 ### Taxonomy Resolver
 **Repository:** https://github.com/dannon/taxonomy-resolver
 
-A Claude skill that resolves organism names to NCBI taxonomy IDs, searches for genomic data in ENA (European Nucleotide Archive), and recommends IWC Galaxy workflows. It uses a "let the APIs do the work" approach where Claude orchestrates calls to authoritative external services (NCBI and ENA) while handling natural language interpretation.
+A Claude skill that bridges natural language queries and specialized bioinformatics databases. The skill enables researchers to work with organism data using common names rather than formal taxonomic identifiers.
+
+**Key Capabilities:**
+- **Taxonomy Resolution**: Converts common organism names (e.g., "malaria parasite") to scientific nomenclature ("Plasmodium falciparum") and NCBI taxonomy IDs
+- **Genomic Data Discovery**: Searches the European Nucleotide Archive (ENA) for FASTQ files and genome assemblies with accession numbers and metadata
+- **Workflow Recommendations**: Suggests appropriate Galaxy workflows from the Intergalactic Workflow Commission (IWC) based on data characteristics
+- **Smart Disambiguation**: Uses conversational interactions to clarify ambiguous organism references before making API calls
+
+**Technical Approach:**
+Built on a "let the APIs do the work" philosophy - Claude orchestrates calls to authoritative external services (NCBI Taxonomy API, ENA Portal API, IWC Workflow Registry) while handling natural language interpretation. Implemented in Python 3.6+ with no external dependencies, prioritizing verifiable data accuracy over embedded AI knowledge.
 
 ### BRC Analytics - LLM ENA Search
 **Repository:** https://github.com/dannon/brc-analytics/tree/feature/llm-ena-search
