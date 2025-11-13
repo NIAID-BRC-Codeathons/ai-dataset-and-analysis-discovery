@@ -28,6 +28,9 @@ A Claude skill that resolves organism names to NCBI taxonomy IDs, searches for g
 
 Work in progress on integrating LLM capabilities with ENA search functionality into the BRC Analytics data catalog. This branch explores using AI to enhance dataset discovery and search within the BRC ecosystem.
 
+### Differential Expression Q and A
+A related activity involved analyzing differential expression data in ChatGPT and evaluating how well it could summarize, chart, and answer questions about the data.
+
 ## Getting Started
 
 *Team members: Add your project setup instructions here.*
