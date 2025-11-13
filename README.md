@@ -48,3 +48,11 @@ A related activity involved analyzing differential expression data in ChatGPT an
 ## License
 
 *To be determined by the team.*
+
+### Status Updates
+#### 11-13-2025
+* Configured local Ollama instance for running open LLM models.
+* Added options for tuning inference parameters (temperature, token_limits) for faster response times while maintaining quality.
+* Optimized context size from initial 20KB to 3KB per request.
+* Implemeted LLM benchmarking metrics that logs token sizes and times per-request.
+* Created metrics API endpoint. 
