@@ -14,13 +14,33 @@ This is a project from the **NIAID BRC AI Codeathon 2025**, taking place Novembe
 
 The NIAID Bioinformatics Resource Centers (BRCs) invite researchers, data scientists, and developers to a three-day AI Codeathon focused on improving Findability, Accessibility, Interoperability, and Reusability (FAIR-ness) of BRC data and tools using artificial intelligence (AI) and large language models (LLMs).
 
+## Related Projects
+
+This codeathon builds on several related efforts:
+
+### Taxonomy Resolver
+**Repository:** https://github.com/dannon/taxonomy-resolver
+
+A Claude skill that resolves organism names to NCBI taxonomy IDs, searches for genomic data in ENA (European Nucleotide Archive), and recommends IWC Galaxy workflows. It uses a "let the APIs do the work" approach where Claude orchestrates calls to authoritative external services (NCBI and ENA) while handling natural language interpretation.
+
+### BRC Analytics - LLM ENA Search
+**Repository:** https://github.com/dannon/brc-analytics/tree/feature/llm-ena-search
+
+Work in progress on integrating LLM capabilities with ENA search functionality into the BRC Analytics data catalog. This branch explores using AI to enhance dataset discovery and search within the BRC ecosystem.
+
 ## Getting Started
 
 *Team members: Add your project setup instructions here.*
 
 ## Team
 
-*Team members: Add your team information here.*
+- Dannon Baker (@dannon)
+- Scott Cain (@scottcain)
+- Danielle Callan (@d-callan)
+- Jonathan Livny (@livny)
+- Anton Nekrutenko (@nekrut)
+- Dave Rogers (@NoopDog)
+- Steven Weaver (@stevenweaver)
 
 ## License
 
